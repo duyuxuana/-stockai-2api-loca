@@ -1,6 +1,6 @@
 # StockAI-2API (Local Version)
 
-这是一个将 [StockAI](https://free.stockai.trade) 的免费聊天接口转换为标准 OpenAI API 格式的本地代理服务。
+这是一个将 [StockAI](https://free.stockai.trade)逆向api,的免费聊天接口转换为标准 OpenAI API 格式的本地代理服务。
 
 ## ✨ 特性
 
