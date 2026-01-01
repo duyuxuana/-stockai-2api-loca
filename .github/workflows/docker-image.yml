@@ -8,8 +8,9 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # 镜像名称默认为 <github-username>/<repo-name>，自动转小写
-  IMAGE_NAME: ${{ github.repository }}
+  # 手动指定合法的镜像名，格式: 用户名/镜像名
+  # 使用 github.repository_owner 自动获取用户名，后面跟上合法的镜像名
+  IMAGE_NAME: ${{ github.repository_owner }}/stockai-2api-local
 
 jobs:
   build-and-push:
