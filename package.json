@@ -1,0 +1,23 @@
+{
+  "name": "stockai-2api-local",
+  "version": "1.2.0",
+  "description": "StockAI to OpenAI API Proxy (Local Version)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "stockai",
+    "openai",
+    "api",
+    "proxy",
+    "docker"
+  ],
+  "author": "Principal AI Executive Officer",
+  "license": "MIT",
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
